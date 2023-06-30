@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import {useDispatch, useSelector} from 'react-redux';
-import { resetPasswordRequestAsync, selectMailSent } from '../../../../../../../../Users/Prasanth/Downloads/MERN-ecommerce-Frontend-main/MERN-ecommerce-Frontend-main/src/features/auth/authSlice';
+import { resetPasswordRequestAsync, selectMailSent } from '../authSlice';
 
 export default function ForgotPassword() {
 
